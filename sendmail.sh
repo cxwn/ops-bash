@@ -5,7 +5,7 @@
 #   DESCRIPTION: All rights reserved.
 #        AUTHOR: IVAN DU (mrivandu), mrivandu@hotmail.com
 #       CREATED: 2019-04-30-18:53:32
-#      REVISION: v1.1.1
+#      REVISION: v1.0
 #===============================================================================
 receiver_list=( 'gysl@163.com' 'gysl@qq.com' 'mrivandu@hotmail.com' )
 available_memory=`free -m|grep 'Mem'|awk '{print $NF}'`
