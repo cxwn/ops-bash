@@ -2,7 +2,7 @@
 #===============================================================================
 #          FILE: ~/sendmail.sh
 #         USAGE: sudo sh ~/sendmail.sh 
-#   DESCRIPTION: All rights reserved.
+#   DESCRIPTION: All rights reserved. https://github.com/mrivandu/ops/blob/master/sendmail.sh
 #        AUTHOR: IVAN DU (mrivandu), mrivandu@hotmail.com
 #       CREATED: 2019-04-30-18:53:32
 #      REVISION: v1.0
