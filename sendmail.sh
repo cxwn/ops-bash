@@ -9,7 +9,7 @@
 #===============================================================================
 receiver_list=( 'gysl@163.com' 'gysl@qq.com' 'mrivandu@hotmail.com' )
 available_memory=`free -m|grep 'Mem'|awk '{print $NF}'`
-text="The available memory of current host is ${available_memory}. "
+text="The available memory of current host is ${available_memory}MB. "
 
 if [ -n "`sudo rpm -qa|grep mailx`" ];then
   echo "Mailx is installed!"
