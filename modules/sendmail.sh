@@ -2,7 +2,7 @@
 #===============================================================================
 #          FILE: ~/sendmail.sh
 #         USAGE: sudo sh ~/sendmail.sh sendmail_username sendmail_passwd receiver_username@163.com Subject mail_body_path 
-#   DESCRIPTION: All rights reserved. https://github.com/mrivandu/ops/blob/master/sendmail.sh
+#   DESCRIPTION: All rights reserved. https://github.com/mrivandu/ops/blob/master/modules/sendmail.sh
 #        AUTHOR: IVAN DU (mrivandu), mrivandu@hotmail.com
 #       CREATED: 2019-04-30-12:23:32
 #      REVISION: v1.0
