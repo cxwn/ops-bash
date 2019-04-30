@@ -4,7 +4,7 @@ Some scripts and tools used in daily operation and maintemance.
 
 ## modules
 
-- 一些常用的模块，可以直接在脚本中引用。
+- 一些常用的函数模块，可以直接在脚本中引用。
 
 ## memory_usage_alarm
 
