@@ -33,7 +33,6 @@ function sendmail(){
       echo "Mail delivery to ${receiver} is failed, please check the configuration! ";
       sleep 10;
     fi
-    return 0;
 }
 
 sendmail $1 $2 $3 $4 $5

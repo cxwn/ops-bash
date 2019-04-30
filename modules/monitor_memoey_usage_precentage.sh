@@ -7,7 +7,6 @@ function detection(){
     else
         echo "The available memory is rich. ";
     fi
-    return 0;
 }
 
 detection $1
