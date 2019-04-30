@@ -9,5 +9,3 @@ Some scripts and tools used in daily operation and maintemance.
 ## memory_usage_alarm
 
 - 当系统可用内存小于 1500MB 时，向指定的邮箱发送邮件。
-
-
