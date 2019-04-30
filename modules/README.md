@@ -18,7 +18,7 @@ memory_usage.sh 内容如下：
   
 ```bash
 #!/bin/bash
-$(pwd)/sendmail.sh my_account my_passwd dst_mail@163.com Memory_usage /tmp/mail.text
+. $(pwd)/sendmail.sh my_account my_passwd dst_mail@163.com Memory_usage /tmp/mail.text
 ```
 
 执行结果：
