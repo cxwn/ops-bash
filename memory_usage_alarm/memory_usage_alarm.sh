@@ -23,7 +23,7 @@ else
   echo "The username is exist. "
 fi
 
-if [ ${available_memory} -gt 1000 ]; then
+if [ ${available_memory} -lt 1500 ]; then
   for receiver in ${receiver_list[@]}; do
     echo ${text}|tee /tmp/mail.text
     mail -s "`date +%F-%T`-${text}" ${receiver} </tmp/mail.text

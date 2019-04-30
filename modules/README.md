@@ -12,7 +12,7 @@ we can easily use them in our own scripts.
 
 - 包括五个参数。分别是发件账户、发送账户的密码、收件人邮箱、邮件主题、邮件正文的文件路径。
 
-- 使用示例。在脚本 memory_usage.sh 引用该模块。
+- 使用示例。在脚本 memory_usage.sh 中引用该模块。
 
 memory_usage.sh 内容如下：
   
