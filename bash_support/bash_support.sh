@@ -3,13 +3,14 @@
 #          FILE: bash_support.sh
 #         USAGE: . ${YOUR_PATH}/bash_support.sh
 #   DESCRIPTION:
-#         NOTES: NONE
 #        AUTHOR: IVAN DU
 #        E-MAIL: mrivandu@hotmail.com
 #        WECHAT: ecsboy
 #      TECHBLOG: https://ivandu.blog.csdn.net
 #        GITHUB: https://github.com/mrivandu
-#       CREATED: 2019年05月01日 08时17分59秒
+#       CREATED: 2019-05-01 08:12:45
+#       LICENSE: GNU General Public License.
+#     COPYRIGHT: © IVAN DU 2019
 #      REVISION: v1.0
 #===============================================================================
 
