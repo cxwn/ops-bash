@@ -7,6 +7,7 @@
 #       CREATED: 2019-04-30-12:23:32
 #      REVISION: v1.0
 #==============================================================================
+
 function sendmail(){
     local sendmail_username=$1
     local sendmail_passwd=$2

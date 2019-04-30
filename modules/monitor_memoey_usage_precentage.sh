@@ -7,7 +7,7 @@
 #       CREATED: 2019-04-30-21:44:32
 #      REVISION: v1.0
 #==============================================================================
-function sendmail(){
+
 function detection(){
     local memory_available_precentage=`free|grep 'Mem:'|awk '{print $NF/$2*100}'`
     local memory_limit_precentage=$1 # Threshold precentage.
