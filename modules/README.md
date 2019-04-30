@@ -23,4 +23,4 @@ $(pwd)/sendmail.sh my_account my_passwd dst_mail@163.com Memory_usage /tmp/mail.
 
 执行结果：
 
-![执行结果]()
+![执行结果](https://raw.githubusercontent.com/mrivandu/ops/master/images/sendmail.jpg)
