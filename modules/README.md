@@ -24,3 +24,13 @@ memory_usage.sh 内容如下：
 执行结果：
 
 ![执行结果](https://raw.githubusercontent.com/mrivandu/ops/master/images/sendmail.jpg)
+
+## monitor_memoey_usage_precentage.sh
+
+- 可用内存占比检测，传入的参数是限制阈值百分比。比如设置的阈值是：20%，当可用内存百分比小于 20% 时打印内存不足的提示。此时传入的参数为：20。当然，也可以使用之前的模块进行邮件报警。注意：脚本中使用了[[]],此处不能使用[]。
+
+- 在其他脚本中引用示例。
+  
+```bash
+. ${yourpath}/monitor_memoey_usage_precentage.sh 20
+```
