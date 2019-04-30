@@ -4,7 +4,7 @@
 #         USAGE: sudo sh ~/sendmail.sh 
 #   DESCRIPTION: All rights reserved. https://github.com/mrivandu/ops/blob/master/sendmail.sh
 #        AUTHOR: IVAN DU (mrivandu), mrivandu@hotmail.com
-#       CREATED: 2019-04-30-18:53:32
+#       CREATED: 2019-04-30-13:53:32
 #      REVISION: v1.0
 #===============================================================================
 receiver_list=( 'gysl@163.com' 'gysl@qq.com' 'mrivandu@hotmail.com' )
