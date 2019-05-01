@@ -60,5 +60,5 @@ ori_md5sum $1
 
 ```bash
 . ${yourpath}/original_fingerprint_md5sum.sh
-check_md5sum $1 $
+check_md5sum $1 $2
 ```
