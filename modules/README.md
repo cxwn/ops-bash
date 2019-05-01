@@ -36,3 +36,29 @@ sendmail my_account my_passwd dst_mail@163.com Memory_usage /tmp/mail.text
 . ${yourpath}/monitor_memoey_usage_precentage.sh
 deteciton $1
 ```
+
+## original_figerprint_md5sum.sh
+
+- 用于生成指定目录下的文件的原始 MD5 校验和。
+
+- 需要传入一个参数，即：需要校验的目录路径。校验完成后会在当前目录生成一个名为 ori_md5sum.db 的原始校验文件，该文件用于后期的验证。
+
+- 用法示例：
+
+```bash
+. ${yourpath}/original_figerprint_md5sum.sh
+ori_md5sum $1
+```
+
+## check_figerprint_sum.sh
+
+- 用于检查指定目录的 MD5 校验和。
+
+- 需要传入2个参数，原始 MD5 校验和文件和指定路径，可以与 original_figerprint_md5sum.sh 配合使用。
+
+- 用法示例：
+
+```bash
+. ${yourpath}/original_figerprint_md5sum.sh
+check_md5sum $1 $
+```
