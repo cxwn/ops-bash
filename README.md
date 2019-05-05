@@ -1,4 +1,4 @@
-# ops
+# ops-bash
 
 Some scripts and tools used in daily operation and maintemance.
 
