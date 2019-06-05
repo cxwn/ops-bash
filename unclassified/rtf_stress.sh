@@ -10,5 +10,6 @@ for((count=1;count<=\${round};count++));do
     error_num=\$(cat \${log}/SuccessAudioLists.round\${count}.txt|grep -v 'RTF'|wc -l)
     awk -v a_time=\${audio_time} -v t_time=\${total_time} -v round=\${count} -v error_num=\${error_num} 'BEGIN{printf("%5d\\t%9.2f\\t%9d\\t%9.2f\\t%-8.2f\n",round,a_time,t_time,(50-error_num)/50,t_time/a_time) }'
 done
+exit 0
 EOF
 bash rtf_calculate.sh
