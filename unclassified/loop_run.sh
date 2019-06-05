@@ -13,3 +13,5 @@ while true; do
     fi
 done
 EOF
+
+bash run.sh
