@@ -3,7 +3,7 @@ cat>rtf_calculate.sh<<EOF
 #!/bin/bash
 round=1
 awk 'BEGIN{print "Round\\tAudioTime\\tTotalTime\\tErrorRate\\tRTF"}'
-for fl in \`ls 2019-06-04????/SuccessAudioLists.round1.txt\`;do
+for fl in \`ls 2019-06-0?????/SuccessAudioLists.round1.txt\`;do
     audio_time=\$(cat \${fl}|grep -v 'RTF'|awk '{print \$2}'|egrep -o '[0-9]*(\.[0-9]*)?'|awk 'BEGIN{SUM=0}{SUM+=\$1}END{print SUM}')
     total_time=\$(cat \${fl}|grep -v 'RTF'|awk '{print \$3}'|egrep -o '[0-9]*'|awk 'BEGIN{SUM=0}{SUM+=\$1}END{print SUM}')
     error_num=\$(cat \${fl}|grep -v 'RTF'|wc -l)
