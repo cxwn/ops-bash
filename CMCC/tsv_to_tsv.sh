@@ -17,6 +17,7 @@ def process_res(res_text):
 for line in sys.stdin:
     line = line.rstrip('\r\n')
     f = line.split('\t')
+    print(line)
     corpus_name = f[0]
     filename = f[1]
     filepath = f[2]
