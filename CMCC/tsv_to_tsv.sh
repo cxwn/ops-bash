@@ -14,6 +14,7 @@ def process_res(res_text):
         print(sentences)
         if sentences:
             text += ''.join(sentences)
+    print(text)
     return text
 
 for line in sys.stdin:
