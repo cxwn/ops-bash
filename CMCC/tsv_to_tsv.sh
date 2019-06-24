@@ -11,6 +11,7 @@ def process_res(res_text):
     print(o)
     for fragment in o:
         sentences = fragment['Sentences']
+        print(sentences)
         if sentences:
             text += ''.join(sentences)
     return text
