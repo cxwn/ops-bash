@@ -8,19 +8,15 @@ import json
 def process_res(res_text):
     text = ''
     o = json.loads(res_text)
-    print(o)
     for fragment in o:
         sentences = fragment['Sentences']
-        print(sentences)
         if sentences:
-            text += ''.join(sentences)
-    print(text)
+            text += ' '+''.join(sentences)
     return text
 
 for line in sys.stdin:
     line = line.rstrip('\r\n')
     f = line.split('\t')
-    print(line)
     corpus_name = f[0]
     filename = f[1]
     filepath = f[2]
