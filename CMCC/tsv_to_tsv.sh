@@ -8,6 +8,7 @@ import json
 def process_res(res_text):
     text = ''
     o = json.loads(res_text)
+    print(o)
     for fragment in o:
         sentences = fragment['Sentences']
         if sentences:
