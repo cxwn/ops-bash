@@ -1,5 +1,5 @@
 #!/bin/bash
-cat>tsv_to_tsv<<EOF
+cat>tsv_to_tsv.py<<EOF
 # -*- coding:utf-8 -*-
 #!/bin/python3
 import sys
