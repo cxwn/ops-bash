@@ -26,6 +26,7 @@ net.ipv6.conf.default.forwarding = 1
 net.ipv6.conf.all.forwarding = 1
 EOF
         sysctl -p /etc/sysctl.d/docker.conf>&/dev/null
+        
 # IPv6 configuration.
         [ ! -d /etc/docker ] && mkdir /etc/docker
         cat>/etc/docker/daemon.json<<EOF
@@ -34,6 +35,7 @@ EOF
   "fixed-cidr-v6": "2001:db8:1::/64"
 }
 EOF
+
 # Create a local repo_file.
         [ -d temp ] && rm -rf temp && mkdir temp
         [ ! -d temp ] && mkdir temp
