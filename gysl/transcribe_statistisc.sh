@@ -1,8 +1,9 @@
 #!/bin/bash
 USERNAME="transcribe"
+MYSQL_HOST=192.168.156.229
 DBNAME="transcribe"
-DATE="2019-06-21" 
-mysql -u ${USERNAME} -h ${MYSQL_HOSTNAME} -P ${MYSQL_PORT} -p ${MYSQL_PASSWD}  -D ${DBNAME} <<EOF
+DATE="2019-06-21"
+mysql -u ${USERNAME} -h ${MYSQL_HOST} -P ${MYSQL_PORT} -p${MYSQL_PASSWD}  -D ${DBNAME} <<EOF
 select current_date();
 use ${DBNAME};
 select  sum(TranscribeAllSeconds)/3600 as 'Length of Successful Audio Transcribing(hrs)' from transcribe_logs where PodType = 'AsyncService' and TranscribeDay >= ${DATE};
