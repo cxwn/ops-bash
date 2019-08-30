@@ -1,5 +1,5 @@
 #!/bin/bash
-container_id='8003afaf1300'
+container_id=$(docker ps |grep "sr:CMCC-PATCH"|awk '{print $1}')
 for dir in "wavs" "diazirzer_result";
  do
    [ -d ${dir} ] && rm -rf ${dir} && mkdir ${dir}
