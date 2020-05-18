@@ -1,0 +1,1 @@
+1 2 * * * find /home/platform2/online/decoder_ZHY-kefu_DaoHang/voice -mtime +7 -name '20*' -exec rm -rf {} \;
